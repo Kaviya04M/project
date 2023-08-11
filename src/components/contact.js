@@ -1,28 +1,34 @@
+import React from "react";
+
+
+
 const contact=()=>{
     return(
-        <section id="contact" className="contact section">
-        <h2>Contact</h2>
-        <div className="contact-content">
-          <div className="contact-item">
-            <a href="https://github.com/Gokulanandan-S" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-github"></i> GitHub
-            </a>
+      <div>
+          <section id="contact" className="contact section">
+          <h2>Contact</h2>
+          <div className="contact-content">
+            <div className="contact-item">
+              <a href="https://github.com/Kaviya04M" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github"></i> GitHub
+              </a>
+            </div>
+            <div className="contact-item">
+              <a href="https://in.linkedin.com/in/kaviya-priya-mathiyazhagan-666820225/" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-linkedin"></i> LinkedIn
+              </a>
+            </div>
+            <div className="contact-item">
+              <a href="kaviyapriya.21ad@kct.ac.in">
+                <i className="fa fa-envelope"></i> kaviyapriya.21ad@kct.ac.in
+              </a>
+            </div>
+            <div className="contact-item">
+              <i className="fa fa-phone"></i> +91 9876543210
+            </div>
           </div>
-          <div className="contact-item">
-            <a href="https://www.linkedin.com/in/gokulanandan-suresh-91694322b/" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-linkedin"></i> LinkedIn
-            </a>
-          </div>
-          <div className="contact-item">
-            <a href="anandhan04040@gmail.com">
-              <i className="fa fa-envelope"></i> anandhan04040@gmail.com
-            </a>
-          </div>
-          <div className="contact-item">
-            <i className="fa fa-phone"></i> +91 8220808893
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     );
 }
 export default contact;

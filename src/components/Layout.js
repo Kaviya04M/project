@@ -1,22 +1,21 @@
-import { Link,Outlet } from "react-router-dom";
-import '../App.css';
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
+
 
 const Layout=()=>{
     return(
-        <div>
-            <nav className="navbar">
-                <span className="navbar1">
-                <Link to="/"><button className="buttons">Profile</button></Link>
-                </span>
-                
-                <Link to="/resume"><button className="buttons">Resume</button></Link>
-                <Link to="/projects"><button className="buttons">Projects</button></Link>
-                <Link to="/contact"><button className="buttons">Contact</button></Link>
+        <div className="contents">
+            <header>
+                <Link to="/">Profile</Link>
+                <Link to="/Profile">Skills</Link>
+                <Link to="/Projects">Projects</Link>
+                <Link to="/contact">contact</Link>
 
-            </nav>
+            </header>
             <Outlet />
-        </div>
+    </div>
         
     );
 }
+
 export default Layout;
