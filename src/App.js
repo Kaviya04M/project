@@ -4,8 +4,8 @@ import Layout from './components/Layout';
 import Profile from './components/Profile';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
-import contact from './components/contact';
 import { Routes,Route } from 'react-router-dom';
+import CONTACT1 from './components/CONTACT1';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route index element={<Profile />} /> 
         <Route path="Resume" element={<Resume />} />
         <Route path="Projects" element={<Projects />} />
-        <Route path="contact" element={<contact />}/>
+        <Route path="CONTACT1" element={<CONTACT1 />}/>
         </Route>
       </Routes>
     </div>

@@ -7,9 +7,9 @@ const Layout=()=>{
         <div className="contents">
             <header>
                 <Link to="/">Profile</Link>
-                <Link to="/Profile">Skills</Link>
                 <Link to="/Projects">Projects</Link>
-                <Link to="/contact">contact</Link>
+                <Link to="/Resume">Resume</Link>
+                <Link to="/CONTACT1">CONTACT1</Link>
 
             </header>
             <Outlet />

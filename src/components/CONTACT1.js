@@ -1,5 +1,5 @@
 import React from "react";
-const contact=()=>{
+const CONTACT1=()=>{
     return(
       <div>
           <section id="contact" className="contact section">
@@ -28,4 +28,4 @@ const contact=()=>{
       </div>
     );
 }
-export default contact;
+export default CONTACT1;
